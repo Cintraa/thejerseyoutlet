@@ -16,6 +16,16 @@ header{
   /* border-bottom: 4px solid #F5F6F8; */
 }
 
+.hider{
+  height: 135px;
+  top: 10px;
+  left: 73px;
+  width: 190px;
+  background-color: rgb(243,247,247);
+  position: relative;
+  z-index: 100;
+}
+
 .menu{
   padding: 6px;
   background-color: white;
@@ -33,7 +43,7 @@ iframe{
   width: 100%;
   height: 4850px;
   position: relative;
-  bottom: 275px;
+  bottom: 420px;
   z-index: 1;
 }
 
