@@ -17,10 +17,10 @@ header{
 }
 
 .hider{
-  height: 135px;
-  top: 10px;
-  left: 73px;
-  width: 190px;
+  height: 145px;
+  /* top: 10px; */
+  /* left: 73px; */
+  width: 265px;
   background-color: rgb(243,247,247);
   position: relative;
   z-index: 100;
