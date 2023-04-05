@@ -1,0 +1,54 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html, body{
+  height: 100%;
+}
+
+header{
+  width: 100%;
+  position: relative;
+  z-index: 100;
+  /* border-bottom: 4px solid #F5F6F8; */
+}
+
+.menu{
+  padding: 6px;
+  background-color: white;
+}
+
+.logo{
+  margin: 0 auto;
+  width: 200px;
+  height: 100px;
+  background-image: url("THE_JERSEY_OUTLET.png");
+  background-size: cover;
+}
+
+iframe{
+  width: 100%;
+  height: 3850px;
+  position: relative;
+  bottom: 275px;
+  z-index: 1;
+}
+
+@media screen and (max-width:895px){
+  .category{
+      padding: 5px 0;
+  }
+
+  .banner h2{
+      width: 100%;
+      text-align: center;
+      margin: 0;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 50px;
+  }
+}
